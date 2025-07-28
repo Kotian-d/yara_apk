@@ -9,7 +9,7 @@ import 'package:yara/pages/signup/Model/signupmodel.dart';
 
 part 'apiservices.g.dart';
 
-@RestApi(baseUrl: 'https://feasible-intensely-sawfly.ngrok-free.app/api/v1/app')
+@RestApi(baseUrl: 'https://yara-one.vercel.app/api/v1/app')
 abstract class RestClient {
   factory RestClient(Dio dio, {String? baseUrl}) = _RestClient;
 

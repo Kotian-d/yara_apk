@@ -10,7 +10,7 @@ part of 'apiservices.dart';
 
 class _RestClient implements RestClient {
   _RestClient(this._dio, {this.baseUrl, this.errorLogger}) {
-    baseUrl ??= 'https://feasible-intensely-sawfly.ngrok-free.app/api/v1/app';
+    baseUrl ??= 'https://yara-one.vercel.app/api/v1/app';
   }
 
   final Dio _dio;
